@@ -3,7 +3,7 @@
 Barebones to start any ruby application.
 
 
-## What is provided
+## What is provided
 
 - [RuboCop](https://docs.rubocop.org/rubocop/index.html)
 - [RSpec](https://relishapp.com/rspec)
@@ -11,7 +11,7 @@ Barebones to start any ruby application.
 - [Simplecov](https://github.com/simplecov-ruby/simplecov)
 - [Github Workflows](https://docs.github.com/en/actions/using-workflows)
 
-## What you should know
+## What you should know
 
 - Your code goes inside the lib folder
 - Remember to do your code in small chunks
@@ -38,13 +38,13 @@ $ gem install bundler
 $ bundle install
 ```
 
-### Testing with rspec
+### Testing with rspec
 
 ```
 $ rspec
 ```
 
-### Linting with RuboCop
+### Linting with RuboCop
 
 ```
 $ bundle exec rubocop
