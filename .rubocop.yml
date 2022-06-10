@@ -24,6 +24,10 @@ AllCops:
     - 'bin/**/*'
     - 'spec/**/*'
 
+# the only reason you should uncomment this
+# when dealing with x and y coordinates, and that makes sense
+# Naming/MethodParameterName:
+#   MinNameLength: 1
 
 Gemspec/DateAssignment:
   Enabled: true
