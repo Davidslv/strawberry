@@ -5,12 +5,16 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 group :development, :test do
   gem 'pry'
-  gem 'rspec'
   gem 'rubocop', require: false
+  # Provides a quality report of your Ruby code
+  gem 'rubycritic', require: false
 end
 
 group :test do
+  gem 'rspec'
   gem 'simplecov', require: false
+
+  # gem 'cucumber'
 end
 
 group :development do
