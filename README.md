@@ -8,8 +8,13 @@ Barebones to start any ruby application.
 - [RuboCop](https://docs.rubocop.org/rubocop/index.html)
 - [RSpec](https://relishapp.com/rspec)
 - [Pry](https://github.com/pry/pry)
+- [RubyCritic](https://github.com/whitesmith/rubycritic)
 - [Simplecov](https://github.com/simplecov-ruby/simplecov)
 - [Github Workflows](https://docs.github.com/en/actions/using-workflows)
+
+## Tools to consider
+- [Cucumber](https://github.com/cucumber/cucumber-ruby)
+- [Ruby Toolbox](https://www.ruby-toolbox.com)
 
 ## What you should know
 
@@ -23,7 +28,7 @@ Barebones to start any ruby application.
 
 ### Installation
 
-This project was created using ruby 2.7.2 (see .ruby-version).
+This project was created using ruby 3.0.0 (see [.ruby-version](.ruby-version)).
 
 I use rbenv to install different ruby versions, you may need to install [homebrew](https://brew.sh).
 
@@ -62,4 +67,13 @@ After running the rspec command, a new directory is created to show test coverag
 
 ```
 $ open coverage/index.html
+```
+
+### RubyCritic
+
+Whenever you want to check the status of your code and want a nice report.
+This will create a report into `tmp/` folder and open the browser for you to see the report.
+
+```
+$ rubycritic .
 ```
