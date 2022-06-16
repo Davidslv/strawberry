@@ -12,7 +12,7 @@ Barebones to start any ruby application.
 - [Simplecov](https://github.com/simplecov-ruby/simplecov)
 - [Github Workflows](https://docs.github.com/en/actions/using-workflows)
 
-## Tools to consider
+## Tools to consider
 - [Cucumber](https://github.com/cucumber/cucumber-ruby)
 - [Ruby Toolbox](https://www.ruby-toolbox.com)
 
