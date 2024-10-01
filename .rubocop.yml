@@ -29,7 +29,7 @@ AllCops:
 # Naming/MethodParameterName:
 #   MinNameLength: 1
 
-Gemspec/DateAssignment:
+Gemspec/DeprecatedAttributeAssignment:
   Enabled: true
 Gemspec/RequireMFA:
   Enabled: true
